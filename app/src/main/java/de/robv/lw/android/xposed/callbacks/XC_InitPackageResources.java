@@ -1,9 +1,9 @@
-package de.robv.android.xposed.callbacks;
+package de.robv.lw.android.xposed.callbacks;
 
 import android.content.res.XResources;
 
-import de.robv.android.xposed.IXposedHookInitPackageResources;
-import de.robv.android.xposed.XposedBridge.CopyOnWriteSortedSet;
+import de.robv.lw.android.xposed.IXposedHookInitPackageResources;
+import de.robv.lw.android.xposed.XposedBridge.CopyOnWriteSortedSet;
 
 /**
  * This class is only used for internal purposes, except for the {@link InitPackageResourcesParam}

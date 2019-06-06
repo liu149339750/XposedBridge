@@ -12,15 +12,15 @@ import android.view.Display;
 import java.lang.ref.WeakReference;
 import java.util.Map;
 
-import de.robv.android.xposed.XSharedPreferences;
-import de.robv.android.xposed.XposedBridge;
+import de.robv.lw.android.xposed.XSharedPreferences;
+import de.robv.lw.android.xposed.XposedBridge;
 
-import static de.robv.android.xposed.XposedHelpers.findClass;
-import static de.robv.android.xposed.XposedHelpers.findFieldIfExists;
-import static de.robv.android.xposed.XposedHelpers.findMethodExactIfExists;
-import static de.robv.android.xposed.XposedHelpers.getObjectField;
-import static de.robv.android.xposed.XposedHelpers.newInstance;
-import static de.robv.android.xposed.XposedHelpers.setFloatField;
+import static de.robv.lw.android.xposed.XposedHelpers.findClass;
+import static de.robv.lw.android.xposed.XposedHelpers.findFieldIfExists;
+import static de.robv.lw.android.xposed.XposedHelpers.findMethodExactIfExists;
+import static de.robv.lw.android.xposed.XposedHelpers.getObjectField;
+import static de.robv.lw.android.xposed.XposedHelpers.newInstance;
+import static de.robv.lw.android.xposed.XposedHelpers.setFloatField;
 
 /**
  * Contains various methods for information about the current app.

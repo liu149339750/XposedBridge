@@ -1,11 +1,11 @@
-package de.robv.android.xposed.services;
+package de.robv.lw.android.xposed.services;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
-import de.robv.android.xposed.SELinuxHelper;
+import de.robv.lw.android.xposed.SELinuxHelper;
 
 /**
  * General definition of a file access service provided by the Xposed framework.
